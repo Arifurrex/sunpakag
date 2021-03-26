@@ -1,0 +1,17 @@
+footer {
+  height: 20vh;
+  padding: 8px 8px 8px 8px;
+  background: var(--clr-red);
+  font-weight: 400;
+
+  text-align: center;
+}
+
+footer > p {
+  margin-top: 3.5%;
+  color: #f7f6f6;
+  font-weight: bold;
+  font-family: 'Helvetica';
+  font-size: 17px;
+  opacity: 40%;
+}

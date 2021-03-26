@@ -1,0 +1,20 @@
+.YEARS {
+  padding: 2em 0;
+  .YEARS__con {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1250px;
+    .YEARS__title {
+      color: var(--clr-dark);
+      text-transform: uppercase;
+      padding: 1em 0;
+    }
+    .YEARS__title::before {
+      content: '';
+      position: absolute;
+      width: 1em;
+      height: 1px;
+      background-color: var(--clr-red);
+    }
+  }
+}

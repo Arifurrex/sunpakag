@@ -1,0 +1,21 @@
+.Distributors {
+  background: var(--clr-ligh);
+}
+.Distributors__con {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1250px;
+  padding: 2em 0;
+  .Distributors__title {
+    color: var(--clr-dark);
+    text-transform: uppercase;
+    margin-bottom: 1em;
+  }
+  .Distributors__title::before {
+    content: '';
+    position: absolute;
+    width: 1em;
+    height: 1px;
+    background-color: var(--clr-red);
+  }
+}
